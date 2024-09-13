@@ -5,15 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <fragment
-        android:id="@+id/weather_fragment"
+    <FrameLayout
+        android:id="@+id/weather_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    
-    <fragment
-        android:id="@+id/forecast_fragment"
+
+    <FrameLayout
+        android:id="@+id/forecast_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>
-
